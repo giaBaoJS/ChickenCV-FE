@@ -1,0 +1,16 @@
+.profile-info {
+  background-image: url("https://www.tma.vn/Themes/TMAVN.Theme/Images/Banner-default.jpg");
+  width: 100%;
+  padding: 50px 0;
+  color: white;
+  .contain-right-content span {
+    font-weight: bold;
+  }
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}

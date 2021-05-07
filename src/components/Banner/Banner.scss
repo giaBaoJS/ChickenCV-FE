@@ -1,0 +1,41 @@
+.banner {
+  padding: 20px 0;
+  .row {
+    align-items: center;
+  }
+  &__content {
+    h2 {
+      color: #00b14f;
+      font-weight: bold;
+      font-size: 44px;
+    }
+    h3 {
+      color: #00b14f;
+      font-weight: 600;
+      font-style: italic;
+      font-size: 22px;
+    }
+    p {
+      color: #212f3f;
+      font-size: 16px;
+      margin-top: 20px;
+      font-weight: 600;
+    }
+  }
+  .btn-cv {
+    text-align: center;
+    display: block;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white !important;
+    padding: 10px 20px 10px;
+    width: 200px;
+    background-color: #00b14f;
+  }
+  img {
+    max-width: 80%;
+    object-fit: cover;
+  }
+}

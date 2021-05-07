@@ -1,0 +1,19 @@
+.ContainerLogo {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.titleJob{
+    text-transform: uppercase;
+    color: rgb(4, 158, 112);
+    font-size: 24px;
+}
+.companyName {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.buttonGroup{
+    padding: 2vh;
+    Button{
+        width: 100%;
+    }
+}

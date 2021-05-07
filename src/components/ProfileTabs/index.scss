@@ -1,0 +1,21 @@
+.profile-tabs {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  .list-tab {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.61);
+    .tab-item {
+      padding: 10px;
+      cursor: pointer;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      transition: all 0.2s;
+      &:hover {
+        background: lightgray;
+      }
+      &.active {
+        background: black;
+        color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.group-jobs {
+  padding: 30px 0;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00b14f;
+    padding: 15px;
+    border-radius: 3px 3px 0 0;
+    color: #fff;
+    .title {
+      font-size: 17px;
+      margin: 0;
+    }
+    .all-job {
+      color: #fff;
+      &:hover {
+        color: #373c3e;
+      }
+    }
+  }
+  &__main {
+    background-color: #fff;
+  }
+  .text_ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

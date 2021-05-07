@@ -1,0 +1,44 @@
+.wrap-nav {
+    background-color: #f6fbf9;
+  }
+  .nav-bar {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__left {
+      .image {
+        width: 100%;
+        max-width: 150px;
+      }
+    }
+    &__right {
+      .login {
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #259dd8;
+        color: #fff;
+        margin-right: 5px;
+      }
+      .signup-candidate {
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #25d89c;
+        color: #fff;
+        margin-right: 5px;
+      }
+      .signup-company {
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #c6d825;
+        color: #fff;
+      }
+    }
+  }
+  

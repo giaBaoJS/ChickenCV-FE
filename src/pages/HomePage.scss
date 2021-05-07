@@ -1,0 +1,30 @@
+.list-group {
+  background-color: #f6fbf9;
+}
+.promote {
+  padding: 50px 0;
+  &__title {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  &__content {
+    text-align: center;
+    img {
+      width: 100%;
+      max-width: 162px;
+      margin: 0 auto;
+    }
+    h4 {
+      color: #00b14f;
+      font-weight: 700;
+      font-size: 16px;
+    }
+    p {
+      color: #888;
+      width: 65%;
+      margin: 0 auto;
+      font-size: 14px;
+    }
+  }
+}

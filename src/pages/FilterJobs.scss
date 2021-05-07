@@ -1,0 +1,23 @@
+.filter-jobs {
+    background: #f6f6f6;
+    padding: 20px 0;
+  &__header {
+    margin-top: 30px;
+      padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 30px;
+    .title {
+        margin: 0;
+    }
+    p{
+        margin: 0;
+    }
+  }
+  .hightlight {
+    color: #00b14f;
+  }
+  
+}
